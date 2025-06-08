@@ -1,0 +1,21 @@
+MEDICAL REPORT
+
+Patient Information:
+Name: John Doe
+Age: 45
+Gender: Male
+
+Vital Signs:
+Blood Pressure: 130/85
+Weight: 80 kg
+Height: 175 cm
+BMI: 26.1
+
+Laboratory Results:
+Glucose: 110 mg/dL
+Insulin: 15 mIU/L
+
+Additional Notes:
+Patient shows mild symptoms of insulin resistance.
+Regular exercise and diet modification recommended.
+Follow-up appointment scheduled in 3 months. 

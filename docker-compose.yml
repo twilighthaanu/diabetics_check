@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  diabetes-check:
+    build: .
+    ports:
+      - "5000:5000"  # Flask API
+      - "8501:8501"  # Streamlit
+    volumes:
+      - ./data:/app/data
+    environment:
+      - FLASK_APP=src/api/app.py
+      - FLASK_ENV=development
+      - PYTHONPATH=/app
+    restart: unless-stopped 
